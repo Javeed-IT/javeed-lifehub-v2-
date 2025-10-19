@@ -1,0 +1,6 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input { @apply w-full px-3 py-2 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 outline-none; }
+.btn { @apply px-3 py-2 rounded-xl border border-zinc-300 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-800; }
